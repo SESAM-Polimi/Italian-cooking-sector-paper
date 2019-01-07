@@ -1,0 +1,36 @@
+##
+# LOCATIONS
+##
+
+locations:
+    # region-1-start
+    region1:
+        techs:
+            coal:
+            coal_usc:
+            ccgt:
+            wte:
+            biomass_wood:
+            biogas:
+            biofuel:
+            oil_&_other:
+            geothermal:
+            wind:
+            pv_farm:
+            pv_rooftop:
+            hydro_dam:
+            hydro_ror:
+            phs:
+            el_import:
+            #el_export:
+            demand_power:
+                constraints:
+                    resource: file=demand.csv:demand
+
+    # region-1-end
+
+
+##
+# TRANSMISSION CAPACITIES
+##
+
